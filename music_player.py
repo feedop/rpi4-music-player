@@ -192,7 +192,7 @@ def main():
 
     mixer.init()
 
-    # GPIO.setmode(GPIO.BCM)
+    GPIO.setmode(GPIO.BCM)
 
     # setup buttons
 
