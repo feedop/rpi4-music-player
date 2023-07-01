@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Music player</title>
+</head>   
+<body>
+  <h1>Music player</h1>
+  <h3>Now playing: {{filename}}</h3>
+  <h3>Volume</h3>
+  <form method="POST" action="volume">
+    <input type="range" min="0" max="100" name="data" value="{{volume_value}}"/>
+    <input type="submit" value="submit" />
+  </form>
+
+</script>
+</body>
+
+</html>
